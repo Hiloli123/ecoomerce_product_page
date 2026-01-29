@@ -1,0 +1,113 @@
+.productimage{
+    border: 1px solid #000000;
+    
+}
+body{
+    background-color: #fbe3cd;
+}
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+
+}
+.productimage:hover{
+    transform: scale(1.04);
+    box-shadow: 5px 5px 5px #808080;
+}
+
+.body{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+#fullproduct{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+
+   
+}
+
+button{
+    background-color: #ff6700;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px lightsalmon;
+
+}
+button:hover{
+    background-color: #ff9248;
+}
+.detail{
+    margin-left: 10px;
+}
+.category{
+    background-color: #ff6700;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+select{
+    width: 60%;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+.range{
+    background-color: #ff6700;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.rate{
+    padding-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.sidebar{
+    background-color: #ff6700;
+    padding: 37px 5px ;
+    height: 90vh;
+}
+.icon{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000000;
+    
+}
+#a1{
+    border:5px solid red;
+}
+
+.main{
+    width: 200px;
+    height:200px;
+}
+.abc{
+    margin-left: 35%;
+}
+.discount{
+    background-color: #008000;
+    color:#ffffff;
+    width: 60px;
+}
+.name{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.price{
+    font-size: 20px;
+}
+.sticker{
+    font-weight: 700;
+    background-color: #ff0000;
+    width: 40px;
+    color:#ffffff;
+}
+.inf{
+    width: 30%;
+    font-size: 20px;
+}
+.icon:hover{
+    transform: scale(1.5);
+}
