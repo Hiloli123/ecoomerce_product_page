@@ -21,12 +21,11 @@ body{
     grid-template-columns: 1fr 4fr;
 }
 
-#fullproduct{
+.fullproduct{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 10%;
-
-   
+ 
 }
 
 button{
@@ -67,7 +66,6 @@ select{
 .sidebar{
     background-color: #ff6700;
     padding: 37px 5px ;
-    height: 90vh;
 }
 .icon{
     height: 200px;
@@ -111,3 +109,89 @@ select{
 .icon:hover{
     transform: scale(1.5);
 }
+
+@media (max-width:1680px){
+    .body{
+        display: flex;
+        flex-direction:row;
+        
+    }
+
+    .products{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:5vh;
+        margin-left: 10px;
+    }
+
+    
+    .detail{
+        margin-left: 30%;
+    }
+
+    
+}
+
+@media (max-width:1024px){
+    .body{
+        display: flex;
+        flex-direction:column;
+        
+    }
+
+    .products{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:5vh;
+    }
+
+    .sidebar{
+        height: 60%;
+    }
+    .detail{
+        margin-left: 30%;
+    }
+    .fullproduct{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .abc{
+        margin-left: 25%;
+    }
+    .size{
+        margin-left: 25%;
+    }
+ 
+}
+
+@media (max-width:600px){
+    .body{
+        display: flex;
+        flex-direction:column;
+    }
+
+    .products{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:5vh;
+        
+    }
+    .sidebar{
+        height: 60%;
+    }
+    .detail{
+        margin-left: 30%;
+    }
+    .fullproduct{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .abc{
+        margin-left: 25%;
+    }
+    .size{
+        margin-left: 25%;
+    }
+ 
+}
+
