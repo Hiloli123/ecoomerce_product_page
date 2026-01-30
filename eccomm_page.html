@@ -9,111 +9,132 @@
 
 <body>
     <div class="body">
+
         <div class="sidebar">
-            <div>
-                <div class="category">
-                    <lable> Category</lable>
-                    <ul>
-                        <li>Men</li>
-                        <hr>
-                        <li>Women</li>
-                        <hr>
-                        <li>Children</li>
-                        <hr>
-                    </ul>
-                </div>
 
-                <div class="range">
-
-                    <label for="price">Price :</label>
-                    <select>
-                        <option>Above 2000</option>
-                        <option>between 2000 and 1000</option>
-                        <option>between 1000 and 500</option>
-                        <option>Below 500</option>
-                    </select><br>
-                </div>
-
-                <div class="rate">
-                    <label>Ratting</label><br>
-                    <input type="checkbox">
-                    <lable>&starf;&starf;&starf;&starf;&starf;</lable><br>
-
-                    <input type="checkbox">
-                    <radio>&starf;&starf;&starf;&starf;</radio><br>
-                    <input type="checkbox">
-                    <radio>&starf;&starf;&starf;</radio><br>
-                    <input type="checkbox">
-                    <radio>&starf;&starf;</radio><br>
-                    <input type="checkbox">
-                    <radio>&starf;</radio><br>
-                </div>
+            <div class="category">
+                <div id="heading"><label > Category</label></div>
+                
+                <ul>
+                    <li>Men</li>
+                    <hr>
+                    <li>Women</li>
+                    <hr>
+                    <li>Children</li>
+                    <hr>
+                </ul>
             </div>
+
+            <div class="range">
+                <div id="heading"><label >Price:</label></div>
+                
+                <input type="range" min="0" max="2500" value="1000" step="500">
+                <div class="setprice">
+                    <p>2500<br>
+                        <br>
+                        1500<br>
+                        <br>
+                        500
+
+                    </p>
+
+
+                </div>
+
+            </div>
+
+            <div class="rate">
+                <div id="heading"><label>Ratting</label></div>
+                
+                <input type="checkbox">
+                <label>&starf;&starf;&starf;&starf;&starf;</label><br>
+
+                <input type="checkbox">
+                <label>&starf;&starf;&starf;&starf;&#9734;</label><br>
+                <input type="checkbox">
+                <label>&starf;&starf;&starf;&#9734;&#9734;</label><br>
+                <input type="checkbox">
+                <label>&starf;&starf;&#9734;&#9734;&#9734;</label><br>
+                <input type="checkbox">
+                <label>&starf;&#9734;&#9734;&#9734;&#9734;</label><br>
+            </div>
+
 
             <!-- sidebar -->
         </div>
         <div class="products">
-            <div>
+            <div class="card">
+                <p class="label">New</p>
                 <div class="productimage">
 
-                    <a href="product_detail.html"><img src="pic/Screenshot from 2026-01-28 18-29-42.png"
-                            alt="Product name" height="400px" width="100%"></a>
+                    <a href="product_detail.html"><img src="pic/Screenshot from 2026-01-30 11-57-12.png" alt="Product name"
+                            height="330px" width="100%"></a>
                     <!-- image -->
                 </div>
                 <div class="detail">
-                    <h6>&starf;&starf;&starf;&starf;&starf;</h6>
-                    <h4>Kurti</h4>
-                    <p>Price : 500 &#8377</p>
-                    <p>10% off</p>
+
+                    <h4 class="pn"> Aurelia Kurti</h4>
+                    <h6 class="star">5 &starf;&starf;&starf;&starf;&starf;</h6>
+                    <p class="list">Price: &#8377 500 </p>
+                    <p class="discount">10% off</p>
                     <button type="button">Add to cart</button>
                 </div>
             </div>
-            <div>
+            <div class="card">
+                <p class="labellimited">Limited</p>
                 <div class="productimage">
-                    <a href="product_detail.html"><img src="pic/Screenshot from 2026-01-28 18-29-42.png"
-                            alt="Product name" height="400px" width="100%"></a>
+
+                    <a href="product_detail.html"><img src="pic/Screenshot from 2026-01-30 11-57-35.png" alt="Product name"
+                            height="330px" width="100%"></a>
                     <!-- image -->
                 </div>
                 <div class="detail">
-                    <h6>&starf;&starf;&starf;&starf;&starf;</h6>
-                    <h4>Kurti</h4>
-                    <p>Price : 500 &#8377</p>
-                    <p>10% off</p>
+
+                    <h4 class="pn"> Biba Fashion </h4>
+                    <h6 class="star">4 &starf;&starf;&starf;&starf;&#9734;</h6>
+                    <p class="list">Price: &#8377 550 </p>
+                    <p class="discount">20% off</p>
                     <button type="button">Add to cart</button>
                 </div>
             </div>
-            <div>
+            <div class="card">
+                <p class="labelsale">sale</p>
                 <div class="productimage">
-                    <a href="product_detail.html"><img src="pic/Screenshot from 2026-01-28 18-29-42.png"
-                            alt="Product name" height="400px" width="100%"></a>
+
+                    <a href="product_detail.html"><img src="pic/Screenshot from 2026-01-28 18-30-13.png" alt="Product name"
+                            height="330px" width="100%"></a>
                     <!-- image -->
                 </div>
                 <div class="detail">
-                    <h6>&starf;&starf;&starf;&starf;&starf;</h6>
-                    <h4>Kurti</h4>
-                    <p>Price : 500 &#8377</p>
-                    <p>10% off</p>
+
+                    <h4 class="pn">Max Fashion</h4>
+                    <h6 class="star">4 &starf;&starf;&starf;&starf;&#9734;</h6>
+                    <p class="list">Price: &#8377 750 </p>
+                    <p class="discount">25% off</p>
                     <button type="button">Add to cart</button>
                 </div>
             </div>
-            <div>
+            <div class="card">
+                <p class="label">New</p>
                 <div class="productimage">
-                    <a href="product_detail.html"><img src="pic/Screenshot from 2026-01-28 18-29-42.png"
-                            alt="Product name" height="400px" width="100%"></a>
+
+                    <a href="product_detail.html"><img src="pic/Screenshot from 2026-01-30 11-58-17.png" alt="Product name"
+                            height="330px" width="100%"></a>
                     <!-- image -->
                 </div>
                 <div class="detail">
-                    <h6>&starf;&starf;&starf;&starf;&starf;</h6>
-                    <h4>Kurti</h4>
-                    <p>Price : 500 &#8377</p>
-                    <p>10% off</p>
+
+                    <h4 class="pn">Honey By Pentaloons</h4>
+                    <h6 class="star">2 &starf;&starf;&#9734;&#9734;&#9734;</h6>
+                    <p class="list">Price: &#8377 999 </p>
+                    <p class="discount">5% off</p>
                     <button type="button">Add to cart</button>
                 </div>
             </div>
 
         </div>
-
     </div>
+
 
 </body>
 
